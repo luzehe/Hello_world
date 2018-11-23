@@ -51,7 +51,7 @@ def comm(data):
 	command = get_mail(data)
 	if command == 'Chrome':
 		print('正在执行命令:　%s' % command)
-		os.system(r"start C:\Users\卢泽河\AppData\Local\Google\Chrome\Application\chrome.exe")
+		os.system(r"start C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
 	if command.startswith("cmd:"):
 		print('正在执行命令:　%s' % command[5:])
 		os.system(command[5:])
